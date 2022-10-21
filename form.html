@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Formluarz rejestracyjny</title>
+		<script src="http://localhost/form.js"></script>
+	</head>
+	<body>
+		<form method="post" action="http://localhost/form.php" name="form">
+			<div>
+				<table>
+					<tr>
+						<td>Imię:</td><td><input type="text" name="name" id="name" onfocusout="validator()"></td>
+					</tr>
+					<tr>
+						<td>Nazwisko:</td><td><input type="text" name="lastname" id="lastname" onfocusout="validator()"></td>
+					</tr>
+					<tr>
+						<td>E-mail:</td><td><input type="mail" name="mail" id="mail" onfocusout="mailValidator()"></td>
+					</tr>
+					<tr>
+						<td>Treść:</td><td><textarea name="content" id="content" onfocusout="validator()" cols="28"></textarea></td>
+					</tr>
+					<tr>
+						<td><button type="submit">Wyślij</button></td>
+					</tr>
+				</table>
+				<p id="field" id="mailField" style="color: red;"></p>
+				<p id="mailField" style="color: red;"></p>
+			</div>
+		</form>
+	</body>
+</html>

@@ -25,8 +25,3 @@
 			</table>";
 }
 ?>
-
-
-<?php
-#	echo "Jest OK";
-?>

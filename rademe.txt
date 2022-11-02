@@ -1,0 +1,1 @@
+Formularz HTML walidowany przez JavaScript w wastwie frontendowej a następnie w warstwie backendowej. Przy poprawnym wypełnieniu, dane wyświetlają się w formie tabelki.
